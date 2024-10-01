@@ -1,0 +1,64 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Clean font */
+    background: linear-gradient(135deg, rgba(0, 255, 255, 0.5) 25%, transparent 25%, transparent 50%, rgba(0, 255, 255, 0.5) 50%, rgba(0, 255, 255, 0.5) 75%, transparent 75%, transparent); /* Diagonal stripes */
+    background-size: 20px 20px; /* Size of the stripes */
+    color: #333; /* Dark text for contrast */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Blog List Container */
+  .blog-list {
+    max-width: 800px; /* Max width for the blog list */
+    margin: auto; /* Center the blog list horizontally */
+    padding: 20px; /* Padding around the blog list */
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Create Blog Button */
+  .create-blog {
+    text-align: right; /* Align to the right */
+    margin-bottom: 20px; /* Spacing below the button */
+  }
+  
+  /* Individual Blog Item */
+  .blog-item {
+    border: 1px solid #ccc; /* Light border for each blog item */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside each blog item */
+    margin-bottom: 15px; /* Spacing between blog items */
+    background-color: #f9f9f9; /* Light gray background */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .blog-item:hover {
+    background-color: #e6f7ff; /* Light blue on hover */
+  }
+  
+  /* Blog Title */
+  .blog-item h3 {
+    margin: 0 0 10px 0; /* Margin below the title */
+  }
+  
+  /* Author and Date Styling */
+  .blog-item p {
+    margin: 5px 0; /* Spacing for paragraphs */
+  }
+  
+  /* View Button */
+  .blog-item button {
+    background-color: #004d99; /* Capgemini blue for buttons */
+    color: white; /* White text on buttons */
+    padding: 10px 15px; /* Padding for buttons */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .blog-item button:hover {
+    background-color: #003366; /* Darker blue on hover */
+  }
+  

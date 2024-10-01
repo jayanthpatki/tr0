@@ -1,0 +1,10 @@
+<div class="blog-list">
+  <h2>Blog List</h2>
+  <div *ngFor="let blog of blogs" (click)="viewBlog(blog)">
+    <h3>{{ blog.title }}</h3>
+    <p>{{ blog.content }}</p>
+    <p><em>{{ blog.createdDate | date: 'short' }}</em></p>
+    <hr>
+  </div>
+  <button (click)="createBlog()">Create New Blog</button>
+</div>
